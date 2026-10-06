@@ -1,0 +1,31 @@
+workload,Algorithm,avg_waiting_time,avg_turnaround_time,avg_response_time,max_waiting_time,throughput,context_switches,starved_processes,score
+cpu_intensive,FCFS,63.36,78.46,63.36,127.24,0.06,9.0,0.0,190.35
+cpu_intensive,SJF,56.64,71.73,56.64,127.7,0.06,9.0,0.78,177.13
+cpu_intensive,Round Robin (q=2),139.89,154.98,10.3,162.07,0.05,76.26,0.0,231.22
+cpu_intensive,Priority,63.43,78.52,63.43,130.72,0.06,9.0,0.38,192.22
+cpu_intensive,Adaptive,63.36,78.46,63.36,127.24,0.06,9.0,0.0,190.35
+short_burst,FCFS,1.32,3.82,1.32,3.21,0.28,9.0,0.0,4.25
+short_burst,SJF,1.26,3.75,1.26,3.48,0.28,9.0,0.0,4.25
+short_burst,Round Robin (q=2),2.05,4.55,1.23,4.79,0.27,11.33,0.0,5.67
+short_burst,Priority,1.32,3.82,1.32,4.05,0.28,9.0,0.05,4.67
+short_burst,Adaptive,1.26,3.76,1.26,3.39,0.28,9.0,0.0,4.22
+interactive,FCFS,8.99,11.0,8.99,18.15,0.41,9.0,0.0,27.05
+interactive,SJF,7.4,9.41,7.4,18.11,0.41,9.0,0.63,23.85
+interactive,Round Robin (q=2),11.52,13.54,7.75,20.01,0.39,12.42,0.09,29.28
+interactive,Priority,9.02,11.04,9.02,19.65,0.41,9.0,0.7,27.87
+interactive,Adaptive,7.45,9.47,7.45,18.03,0.41,9.0,0.5,23.92
+mixed,FCFS,32.46,40.23,32.46,65.81,0.13,9.0,0.0,97.82
+mixed,SJF,23.86,31.63,23.86,62.94,0.13,9.0,1.01,79.19
+mixed,Round Robin (q=2),53.68,61.46,9.45,78.95,0.11,40.09,0.02,102.61
+mixed,Priority,32.83,40.61,32.83,68.54,0.13,9.0,0.55,99.93
+mixed,Adaptive,27.16,34.93,27.16,63.71,0.13,9.0,0.61,86.16
+high_load,FCFS,31.55,38.58,31.55,63.42,0.13,9.0,0.0,94.82
+high_load,SJF,27.14,34.17,27.14,62.03,0.13,9.0,0.64,85.3
+high_load,Round Robin (q=2),60.97,68.0,10.33,75.79,0.11,36.38,0.0,109.19
+high_load,Priority,31.7,38.72,31.7,64.98,0.13,9.0,0.34,95.89
+high_load,Adaptive,27.33,34.35,27.33,62.0,0.13,9.0,0.57,85.65
+variable_burst,FCFS,37.46,46.17,37.46,73.54,0.13,9.0,0.0,111.7
+variable_burst,SJF,17.62,26.33,17.62,54.01,0.13,9.0,0.82,62.24
+variable_burst,Round Robin (q=2),29.48,38.19,7.78,68.72,0.12,39.46,1.08,71.62
+variable_burst,Priority,36.55,45.26,36.55,75.68,0.13,9.0,0.48,110.94
+variable_burst,Adaptive,18.24,26.95,18.24,54.15,0.13,9.0,0.7,63.56
