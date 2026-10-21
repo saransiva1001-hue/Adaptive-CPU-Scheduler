@@ -1,0 +1,15 @@
+arrival,burst,class
+0,12,compile
+1,2,edit
+2,3,edit
+3,2,edit
+4,3,edit
+10,25,render
+12,2,edit
+13,4,query
+15,3,edit
+30,18,compile
+31,2,edit
+33,3,edit
+36,5,query
+40,2,edit
